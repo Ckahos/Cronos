@@ -16,17 +16,17 @@
                 <div id ='cy'></div>
                   <script>
                     var cy = "cytoscape" ({
-                     container:getElementById('cy'),
+                     container:document.getElementById('cy'),
                        elements: [
-                         {data{id: 'a'}},
-                         {data{id: 'b'}},
+                         {data:{id: 'a'}},
+                         {data:{id: 'b'}},
                          {
                            data:{
                             id: 'ab',
                             source: 'a',
-                            target: 'b',
+                            target: 'b'
                              }
-                             ]}
+                          }]
                              });                         
                   </script>
                   </body>
